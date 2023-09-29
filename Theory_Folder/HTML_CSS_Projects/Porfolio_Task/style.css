@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: #f7f7f9;
+}
+nav {
+  max-width: 375px;
+  height: 80px;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px 0 10px;
+}
+.header-shapes-mobile-icon {
+  position: absolute;
+  top: 6.5rem;
+  left: 0;
+  width: 24.88rem;
+  height: 36.7rem;
+}
+.logo {
+  color: #6070ff;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.nav_btn {
+  color: #6070ff;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.container {
+  width: 21.70rem;
+  height: 32.7rem;
+  background-image: url(./assests/header-background-mobile.png);
+  background-size: contain;
+  display: inline-flex;
+  flex-direction: column;
+  padding: 7.125rem 1.5rem;
+}
+
+#title {
+  line-height: 44px;
+  font-size: 2.1rem;
+  font-weight: bolder;
+  color: #344563;
+}
+
+.h_content {
+  margin-top: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #344563;
+}
+
+#btn_1 {
+  margin-top: 1rem;
+  width: fit-content;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  color: #7f8cff;
+}
+
+.social_icons {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 15px;
+  color: #505f79;
+}
