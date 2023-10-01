@@ -22,7 +22,7 @@ nav {
   position: absolute;
   top: 6.5rem;
   left: 0;
-  width: 24.88rem;
+  width: 24.7rem;
   height: 36.7rem;
 }
 
@@ -39,7 +39,8 @@ nav {
 }
 
 .container {
-  width: 21.3rem;
+
+  width: 21.6rem;
   height: 30.7rem;
   background-image: url(./assests/header-background-mobile.png);
   background-size: contain;
