@@ -246,6 +246,7 @@ hr {
 }
 .contact_form_container{
 
+  position:relative;
   width: 24.98rem;
   height: 48.25rem;
   margin-top: 4rem;
@@ -255,7 +256,7 @@ hr {
 .contact_form_container img{
 
   position: absolute;
-  margin-top: 0.7rem;
+  margin-top: 1.7rem;
   right: 0;
 }
 .container_content{
