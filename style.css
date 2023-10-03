@@ -40,10 +40,11 @@ nav {
 
 .container {
 
-  width: 21.6rem;
+  max-width: 21.6rem;
   height: 30.7rem;
   background-image: url(./assests/header-background-mobile.png);
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
   display: inline-flex;
   flex-direction: column;
   padding: 7.125rem 1.5rem;
