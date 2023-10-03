@@ -1,5 +1,5 @@
 
-# Portfolio Documentation
+# Web Technologies Tasks
 
 
 ## Authors
@@ -14,38 +14,22 @@ I'm a full stack web developer...
 ## FAQ
 
 #### Question 1
-Website is properly hosted or not ?
+Are you using branches concept ?
 
 #### Answer 
 
-Yes, Hoseted on netlify
+Yes, 
 
 #### Question 2
 
-Which languages you have used ?
+Are posting content on time
 
-#### Answer
+#### Answer 
 
-HTML
-CSS
+Yes, 
 
-#### Question 4
 
-Have you used semantic tags ?
-
-#### Answer
-
-yup
-
-#### Question 4
-
-What about the pair programing ?
-
-#### Answer
-
-yup, We have done collaboration 
-
-## Demo
+## All Projects Demo Links
 https://mr-shami-portfolio-mob-version.netlify.app/
 
 ## Badges
