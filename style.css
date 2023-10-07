@@ -20,10 +20,8 @@ nav {
 
 .header-shapes-mobile-icon {
   position: absolute;
-  top: 6.5rem;
-  left: 0;
-  width: 24.7rem;
-  height: 36.7rem;
+  margin-top: -6rem;
+  right: 0;
 }
 
 .logo {
@@ -40,19 +38,19 @@ nav {
 
 .container {
 
-  max-width: 21.6rem;
+  position: relative;
+  max-width: 21.7rem;
   height: 30.7rem;
-  background-image: url(./assests/header-background-mobile.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: white;
+  border-bottom-left-radius: 5.625rem;
   display: inline-flex;
   flex-direction: column;
-  padding: 7.125rem 1.5rem;
+  padding: 7rem 1.5rem 3rem 1.5rem;
 }
 
 #title {
   line-height: 44px;
-  font-size: 2.1rem;
+  font-size: 2rem;
   font-weight: bolder;
   color: #344563;
 }
@@ -87,16 +85,16 @@ nav {
 
 .container_2 {
   margin-top: 30px;
-  width: 22.7rem;
+  width: 20.7rem;
   height: 38.7rem;
-  margin-left: 16px;
+  margin-left: 20px;
   background-color: white;
   border: solid rgb(209, 206, 206) 0.06rem;
   border-radius: 1rem;
 }
 
 .snapshot_porfolio_img {
-  padding: 34px;
+  padding: 20px;
   width: 18.5rem;
   height: 13.75rem;
 }
@@ -105,13 +103,13 @@ nav {
   width: 18.4375rem;
   height: 2.25rem;
   color: #172b4d;
-  margin-left: 35px;
+  margin-left: 24px;
 }
 
 .Details {
   display: flex;
   gap: 20px;
-  margin-left: 35px;
+  margin-left: 24px;
   color: #344563;
   padding-top: 10px;
 }
@@ -132,12 +130,11 @@ span:nth-child(3) {
 }
 
 .sec_2_content {
-  /* margin-left: 12px; */
-  padding: 16px 0 10px 35px;
+  padding: 16px 0 10px 24px;
 }
 
 .tags {
-  padding: 16px 0 0 35px;
+  padding: 16px 0 0 24px;
   display: flex;
   gap: 20px;
 }
@@ -150,7 +147,7 @@ span:nth-child(3) {
 }
 
 .pro_btn {
-  margin-left: 35px;
+  margin-left: 24px;
   width: fit-content;
   margin-top: 20px;
   padding: 10px 20px;
@@ -161,9 +158,10 @@ span:nth-child(3) {
 
 .end_container {
   margin-top: 50px;
-  width: 21.7rem;
-  height: 52.7rem;
+  width: 20.7rem;
+  height: 59.7rem;
   background-color: white;
+  border-top-right-radius: 5.625rem;
   display: inline-flex;
   flex-direction: column;
   padding: 7.125rem 1.5rem;
@@ -250,11 +248,12 @@ hr {
 .contact_form_container{
 
   position: relative;
-  width: 24.98rem;
+  width: 23.7rem;
   height: 48.25rem;
-  margin-top: 4rem;
-  background-image: url(./assests/Contact\ me\ \(1\).png);
-  background-size: cover;
+  margin-top: -50px;
+  background-color: #6070ff;
+  border-top-left-radius: 5.625rem;
+
 }
 .contact_form_container img{
   
