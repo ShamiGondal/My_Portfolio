@@ -46,6 +46,19 @@ What about the pair programing ?
 
 yup, We have done collaboration 
 Collaborator @AhmadNaeem313
+
+#### Question 4
+Did you followed guidelines provided in document ?
+
+#### Answer
+
+Yes, Followings...
+
+1.Media queries (375px and 768px)
+2.Hosted on git pages
+3.Created seprate Branches
+
+
 ## Demo
 
 https://shamigondal.github.io/My_Portfolio/
