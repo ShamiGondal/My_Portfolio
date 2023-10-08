@@ -57,7 +57,8 @@ Yes, Followings...
 1.Media queries (375px and 768px)
 2.Hosted on git pages
 3.Created seprate Branches
-
+4.Used flex and Grid
+5.Added animation 
 
 ## Demo
 
