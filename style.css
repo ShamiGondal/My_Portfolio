@@ -562,4 +562,120 @@ form textarea {
     cursor: pointer;
     font-size: 1.01rem;
   }
+  .end_container {
+    min-width: 51.8rem;
+    height: 19.875rem;
+    padding: 12.06rem 16.25rem;
+    background-color: white;
+    border-top-right-radius: 5.625rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .left {
+    width: fit-content;
+    margin-left: -10rem;
+  }
+
+  .end_container h1 {
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.25rem;
+    color: #172b4d;
+    display: flex;
+    height: 2.0625rem;
+    min-width: 28rem;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .h_content {
+    width: 27.9375rem;
+    height: 6.375rem;
+    color: #344563;
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5rem;
+  }
+
+  .resume_btn {
+    width: fit-content;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: solid #616fe7 1px;
+    border-radius: 0.6rem;
+    color: #152bf5;
+    cursor: pointer;
+    margin-top: 1.5rem;
+  }
+  .resume_btn:hover{
+    font-size: 1.01rem;
+  }
+  .right {
+    margin-left: -20rem;
+    min-width: 30rem;
+  }
+  .dropdown {
+    color: #000;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem;
+    margin-top: -7px;
+  }
+
+  .dropdown span h1 {
+    font-size: 1.5rem;
+    color: #344563;
+    font-size: 1.25rem;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.5rem;
+  }
+
+  .dropdown span {
+    display: flex;
+  }
+
+  .dropdown span img {
+    margin-top: 10px;
+  }
+  .drop_flex {
+    display: flex;
+  }
+  .dropdown_content {
+    margin-top: 30px;
+    background-color: #f7f7f9;
+    border-radius: 0.6rem;
+    display: flex;
+    width: 6.625rem;
+    padding: 0.75rem 0.75rem 1.25rem 0.75rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .dropdown_content p {
+    margin-top: 10px;
+    width: fit-content;
+    height: fit-content;
+  }
+
+  .dropdown_content_img {
+    width: 3rem;
+    height: 3rem;
+    flex-shrink: 0;
+
+    padding: 0px;
+  }
+
+  hr {
+    margin-top: 10px;
+  }
+
+  .skill_dropdown {
+    margin-top: 20px;
+  }
+
 }
