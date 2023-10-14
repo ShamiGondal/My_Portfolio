@@ -8,7 +8,7 @@ body {
 }
 
 nav {
-  max-width: 375px;
+  max-width: 415px;
   height: 80px;
   background-color: white;
   color: black;
@@ -45,7 +45,7 @@ ul {
 
 .container {
   position: relative;
-  max-width: 21.7rem;
+  max-width: 22.7rem;
   height: 30.7rem;
   background-color: white;
   border-bottom-left-radius: 5.625rem;
@@ -94,7 +94,7 @@ ul {
   margin-top: 30px;
   width: 20.7rem;
   height: 38.7rem;
-  margin-left: 20px;
+  margin-left: 25px;
   background-color: white;
   border: solid rgb(209, 206, 206) 0.06rem;
   border-radius: 1rem;
@@ -143,7 +143,7 @@ span:nth-child(3) {
 }
 
 .sec_2_content {
-  padding: 16px 0 10px 24px;
+  padding: 16px 30px 10px 24px;
 }
 
 .tags {
@@ -171,12 +171,11 @@ span:nth-child(3) {
 
 .end_container {
   margin-top: 50px;
-  width: 20.7rem;
+  max-width: 25.7rem;
   height: 59.7rem;
   background-color: white;
   border-top-right-radius: 5.625rem;
-  display: inline-flex;
-  flex-direction: column;
+
   padding: 7.125rem 1.5rem;
 }
 
@@ -260,7 +259,7 @@ hr {
 
 .contact_form_container {
   position: relative;
-  width: 23.7rem;
+  max-width: 25.7rem;
   height: 48.25rem;
   margin-top: -50px;
   background-color: #6070ff;
@@ -339,7 +338,7 @@ form textarea {
 #form_btn_md{
   display: none;
 }
-@media screen and (min-width:376px) and (max-width: 767px) {
+@media screen and (min-width: 416px) and (max-width: 767px) {
   * {
     padding: 0;
     margin: 0;
@@ -434,8 +433,7 @@ form textarea {
   }
   
   /* section 2 */
-  
-  
+
   .container_2 {
     margin-top: 30px;
     min-width: 39rem;
@@ -814,6 +812,7 @@ form textarea {
     transform: scaleY(1.1);
   }
   /* section 2 */
+
 
   .container_2 {
     min-width: 67rem;
