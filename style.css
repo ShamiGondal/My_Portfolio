@@ -41,6 +41,37 @@ ul {
   color: #6070ff;
   font-size: 30px;
   font-weight: bold;
+  border: solid white 0px;
+  background: transparent;
+
+}
+
+.menu {
+  display: none;
+  transition: opacity 0.5s ease; /* You can adjust the duration and easing function */
+}
+
+.active {
+  display: block;
+  opacity: 1;
+}
+
+#mobMenu {
+  display: none; /* Hide the mobile menu by default */
+  list-style: none;
+  padding: 0;
+}
+
+#mobMenu li {
+  padding: 10px;
+  text-align: center;
+  background-color: #48777a;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.menu.active #mobMenu {
+  display: block; /* Show the mobile menu when the 'active' class is present on the menu */
 }
 
 .container {
@@ -386,7 +417,7 @@ form textarea {
     font-size: 30px;
     font-weight: bold;
   }
-  
+
   .container {
     position: relative;
     min-width: 46rem;
@@ -736,6 +767,10 @@ form textarea {
     display: none;
   }
 
+  .menu{
+    display: none;
+  }
+  
   .header-shapes-mobile-icon {
     display: none;
   }
